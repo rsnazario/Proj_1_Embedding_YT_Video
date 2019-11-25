@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Youtube Cover</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
     <nav id="page_header">
         <div id="nav_left"> 
-            <button id="menu">
+            <button type="button" id="menu">
                 <img src="menu.svg">
-            </button>>
+            </button>
             <a href="https://youtube.com"><img src="https://informaticasimples.net/wp-content/uploads/2018/01/YouTube-logo.png"> </a>
         </div>
         
         <div id="nav_center">
-            input 
-            search button 
+            <form action="">
+                <input type="search" name="googlesearch" placeholder="Search">
+                <button type="button" class="search"></button>      
+            </form> 
         </div>
 
         <div id="nav_right">
             <ion-icon src="/path/to/external/file.svg"></ion-icon>
+            <button type="button" id="video"></button>
+            <button type="button" id="apps"></button>
+            <button type="button" id="settings"></button>
 
         </div>
     </nav>

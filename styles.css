@@ -1,0 +1,36 @@
+a img {
+    width: 100px;
+    height: 25px;
+}
+
+nav {
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    background-image: url("bell.svg");
+    margin-left: 0;
+}
+
+input {
+    width: 600px;
+    margin-right: 0;
+}
+
+
+#video {
+    background-image: url("camera.svg");
+}
+
+#apps {
+    background-image: url("squares.svg");
+}
+
+
+.search, #video, #apps {
+    width: 30px;
+    height: 30px;
+}
