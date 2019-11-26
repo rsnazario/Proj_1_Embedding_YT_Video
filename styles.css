@@ -1,8 +1,8 @@
-
-*{
+* {
     font-family: Arial, sans-serif;
 }
-h5{
+
+h5 {
     color: ligthgray;
     display: inline-block;
 }
@@ -14,11 +14,15 @@ a img {
 }
 
 nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: horizontal;
     align-items: center;
     justify-content: space-between;
-
+    background-color: white;
+    height: 50px;
 }
 
 .search {
@@ -30,36 +34,37 @@ nav {
 form input {
     width: 600px;
     height: 30px;
-    
 }
-
 
 #video {
     background-image: url("camera.svg");
-    
 }
 
 #apps {
     background-image: url("squares.svg");
 }
-#settings{
+
+#settings {
     background-image: url("bell.svg");
 }
-#menu{
+
+#menu {
     background-image: url("menu.svg");
 }
-#like{
+
+#like {
     background-image: url("like.svg");
     color: gray;
     margin: 0 10px;
 }
 
-#dislike{
+#dislike {
     background-image: url("dislike.svg");
     color : gray;
     margin: 0 10px;
 }
-#subscribe{
+
+#subscribe {
     width: 150px;
     height: 30px;
     background-color: red;
@@ -68,43 +73,42 @@ form input {
     float : right;
 }
 
-#video_options{
+#video_options {
     float: right;
     padding: 0 25px;
     display: inline;
 }
 
-.search, #video, #apps, #settings, #menu, #like, #dislike, #save, #share{
+.search, #video, #apps, #settings, #menu, #like, #dislike, #save, #share {
     width: 30px;
     height: 30px;
     background-color: transparent;
     border: none;
-    padding: 0 15px;
-    
+    padding: 0 15px;   
 }
 
-main{
+main {
     padding: 50px 80px;
     width: 1200px;
     float : left;
 }
 
-iframe{
-
+iframe {
     width: 1200px;
     height: 600px;
 }
-#video_title{
+
+#video_title {
     margin-bottom: 15px;
     border-bottom: solid 1px lightgray;
-    
 }
-#descript_texts{
+
+#descript_texts {
     width : 800px;
     float : left;
 }
 
-aside{
+aside {
     float: right;
     width: 400px;
 }
