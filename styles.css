@@ -88,13 +88,14 @@ form input {
 }
 
 main {
-    padding: 50px 80px;
-    width: 1200px;
-    float : left;
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 60%;
+    float: left;
 }
 
 iframe {
-    width: 1200px;
+    width: 100%;
     height: 600px;
 }
 
@@ -110,5 +111,54 @@ iframe {
 
 aside {
     float: right;
-    width: 400px;
+    width: 30%;
+    margin-top: 50px;
+}
+
+#first-thumbnail {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+#a-header {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-around;
+}
+
+#up-next {
+    width: 60%;
+}
+
+.thumbnail, .description {
+    height: 100%;
+}
+
+.description {
+    width: 50%;
+}
+
+.thumbnail {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    display: flex;
+    flex-direction: vertical;
+    width: 100%;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info {
+    font-size: 12px;
+    letter-spacing: 0.75px;
+    margin-bottom: 10px;
 }
