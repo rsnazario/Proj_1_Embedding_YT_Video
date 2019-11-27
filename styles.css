@@ -162,3 +162,37 @@ span {
     letter-spacing: 0.75px;
     margin-bottom: 10px;
 }
+
+#comments{
+    margin-top: 10px;
+    clear : both;
+    min-height: 100px;
+}
+
+
+.each-comment{
+    padding-bottom: 100px;
+    
+}
+
+#person img{
+    border-radius: 40%;
+    float: left;
+    max-width: 7%;
+}
+
+.commentary{
+    width: 93%;
+    float: right;
+}
+
+.commentary span{
+    
+    font-size: 13px;
+    display: inline;
+    padding-right: 5px;
+}
+
+.name{
+    font-weight: 800;
+}
