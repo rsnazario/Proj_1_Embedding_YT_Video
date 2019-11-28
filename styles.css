@@ -89,6 +89,11 @@ form input {
     padding: 0 15px;   
 }
 
+#share{
+    background-image: url("share.svg");
+}
+
+
 main {
     margin-top: 50px;
     margin-left: 80px;
