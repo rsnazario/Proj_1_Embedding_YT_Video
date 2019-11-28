@@ -1,7 +1,9 @@
-
-
 * {
     font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(250, 248, 248);
 }
 
 h5 {
@@ -25,6 +27,17 @@ nav {
     justify-content: space-between;
     background-color: white;
     height: 50px;
+    margin-left: 0;
+}
+
+#nav_left, form, nav_right {
+    display: flex;
+}
+
+#nav_center {
+    background-color: lightgrey;
+    border: 0.5px;
+    border-radius: 0 2px 2px 0;
 }
 
 .search {
@@ -89,10 +102,9 @@ form input {
     padding: 0 15px;   
 }
 
-#share{
+#share {
     background-image: url("share.svg");
 }
-
 
 main {
     margin-top: 50px;
@@ -104,6 +116,7 @@ main {
 iframe {
     width: 100%;
     height: 600px;
+    border: 0;
 }
 
 #video_title {
@@ -111,7 +124,7 @@ iframe {
     border-bottom: solid 1px lightgray;
 }
 
-.author{
+.author {
     padding-left: 10px;
 }
 
@@ -174,36 +187,34 @@ span {
     margin-bottom: 10px;
 }
 
-#comments{
+#comments {
     margin-top: 10px;
     clear : both;
     min-height: 100px;
 }
 
 
-.each-comment{
+.each-comment {
     padding-bottom: 100px;
-    
 }
 
-#person img{
+#person img {
     border-radius: 40%;
     float: left;
     max-width: 7%;
 }
 
-.commentary{
+.commentary {
     width: 93%;
     float: right;
 }
 
-.commentary span{
-    
+.commentary span {
     font-size: 13px;
     display: inline;
     padding-right: 5px;
 }
 
-.name{
+.name {
     font-weight: 800;
 }

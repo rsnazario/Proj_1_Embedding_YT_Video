@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <title>Youtube Cover</title>
@@ -11,11 +11,11 @@
         <div id="nav_left"> 
             <button type="button" id="menu">
             </button>
-            <a href="https://youtube.com"><img src="https://informaticasimples.net/wp-content/uploads/2018/01/YouTube-logo.png"> </a>
+            <a href="https://youtube.com"><img src="https://informaticasimples.net/wp-content/uploads/2018/01/YouTube-logo.png" alt="Youtube Logo"></a>
         </div>
         
         <div id="nav_center">
-            <form action="">
+            <form>
                 <input type="search" name="googlesearch" placeholder="Search">
                 <button type="button" class="search"></button>      
             </form> 
@@ -26,48 +26,39 @@
             <button type="button" id="video"></button>
             <button type="button" id="apps"></button>
             <button type="button" id="settings"></button>
-
         </div>
     </nav>
     
     <main>
-        <iframe src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/9YffrCViTVk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <div id="video_title">
             <h3>Embed a YouTube Video in HTML and Make it Responsive (CSS included)</h3>
             <h5>91.238 views - May 31, 2018</h5>
         
             <div id="video_options">
-            
                 <button type="button" id="like"></button>
-                <yt-formatted-string id="text" class="style-scope ytd-button-renderer style-default size-default">909</yt-formatted-string>
+                <yt-formatted-string class="style-scope ytd-button-renderer style-default size-default">909</yt-formatted-string>
                 
                 <button type="button" id="dislike"></button>
-                <yt-formatted-string id="text" class="style-scope ytd-button-renderer style-default size-default">123</yt-formatted-string>
+                <yt-formatted-string class="style-scope ytd-button-renderer style-default size-default">123</yt-formatted-string>
 
                 <button type="button" id="share"></button>
-                <yt-formatted-string id="text" class="style-scope ytd-button-renderer style-default size-default">SHARE</yt-formatted-string>
-
-                
-            </div>
-            
+                <yt-formatted-string class="style-scope ytd-button-renderer style-default size-default">SHARE</yt-formatted-string>
+            </div>   
         </div>
-        
         
         <div id="description_video">
             <div id="descript_texts">
-                    <div id="person">
-                            <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo">
-                    </div>
+                <div id="person">
+                    <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo" alt="Author's Avatar">
+                </div>
                 <h5 class="author">tipwwithpunch</h5><br>
                 <h5>6,78 thousand subscribers</h5>
 
                 <p>In this quick video, I’ll show you how to embed a YouTube video in HTML, how to make it responsive on any sized device and I’ll reveal how you can easily adjust embed options such as autoplay. This will work for any iframes such as google maps iframe.</p>
             </div>
-            <div id="subscribe_button">
-
-            </div>
-
+            
             <button type="button" id="subscribe">SUBSCRIBE</button>
         </div>
 
@@ -75,62 +66,47 @@
             <br>
             <div class="each-comment">
                 <div id="person">
-                    <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo">
+                    <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo" alt="User's Avatar">
                 </div>
                 <div class="commentary">
                     <span class="name">Fixed by tipswithpunch</span>
                     <span>1 week ago</span>
                     <p>If you are using WIX or another platform where you can only add HTML, then use below code for CSS.                  Notice the <code><style></style></code>code> tag which basically tell HTML that this is CSS.</p>
-
-
                 </div>
-
             </div>
 
             <div class="each-comment">
-                    <div id="person">
-                        <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo">
-                    </div>
-                    <div class="commentary">
-                        <span class="name">Fixed by tipswithpunch</span>
-                        <span>1 week ago</span>
-                        <p>If you are using WIX or another platform where you can only add HTML, then use below code for CSS.                  Notice the <code><style></style></code>code> tag which basically tell HTML that this is CSS.</p>
-    
-    
-                    </div>
-    
-                </div>  
+                <div id="person">
+                    <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo" alt="User's Avatar">
+                </div>
+                <div class="commentary">
+                    <span class="name">Fixed by tipswithpunch</span>
+                    <span>1 week ago</span>
+                    <p>If you are using WIX or another platform where you can only add HTML, then use below code for CSS.                  Notice the <code><style></style></code>code> tag which basically tell HTML that this is CSS.</p>
+                </div>
+            </div>  
 
-                <div class="each-comment">
-                        <div id="person">
-                            <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo">
-                        </div>
-                        <div class="commentary">
-                            <span class="name">Fixed by tipswithpunch</span>
-                            <span>1 week ago</span>
-                            <p>If you are using WIX or another platform where you can only add HTML, then use below code for CSS.                  Notice the <code><style></style></code>code> tag which basically tell HTML that this is CSS.</p>
-        
-        
-                        </div>
-        
-                    </div>  
+            <div class="each-comment">
+                <div id="person">
+                    <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo" alt="User's Avatar">
+                </div>
+                <div class="commentary">
+                    <span class="name">Fixed by tipswithpunch</span>
+                    <span>1 week ago</span>
+                    <p>If you are using WIX or another platform where you can only add HTML, then use below code for CSS.                  Notice the <code><style></style></code>code> tag which basically tell HTML that this is CSS.</p>
+                </div>
+            </div>  
 
-                    <div class="each-comment">
-                            <div id="person">
-                                <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo">
-                            </div>
-                            <div class="commentary">
-                                <span class="name">Fixed by tipswithpunch</span>
-                                <span>1 week ago</span>
-                                <p>If you are using WIX or another platform where you can only add HTML, then use below code for CSS.                  Notice the <code><style></style></code>code> tag which basically tell HTML that this is CSS.</p>
-            
-            
-                            </div>
-            
-                        </div>  
-
-            
-
+            <div class="each-comment">
+                <div id="person">
+                    <img src="https://yt3.ggpht.com/a/AGF-l7_aoGOdfk3d7r3-ZOjrSVT2PEUouvO1IdmUjw=s48-c-k-c0xffffffff-no-rj-mo" alt="User's Avatar">
+                </div>
+                <div class="commentary">
+                    <span class="name">Fixed by tipswithpunch</span>
+                    <span>1 week ago</span>
+                    <p>If you are using WIX or another platform where you can only add HTML, then use below code for CSS.                  Notice the <code><style></style></code>code> tag which basically tell HTML that this is CSS.</p>
+                </div>
+            </div>  
         </div>
     </main>
     
@@ -148,7 +124,7 @@
             </div>
           </div>
           <div class="thumbnail">
-            <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/OOy764mDtiA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLA5qBC3uUPA30yb10rhUvwupt4QOg">
+            <img id="img" class="style-scope yt-img-shadow" alt="thumbnail" width="168" src="https://i.ytimg.com/vi/OOy764mDtiA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLA5qBC3uUPA30yb10rhUvwupt4QOg">
             <div class="description">
               <span class="title">Microsoft Tutorial How to insert images into word...</span>
               <span class="info">rahmat maulana</span>
@@ -157,7 +133,7 @@
           </div>
         </div>
         <div class="thumbnail">
-            <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/EuPSibuIKIg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLDOoI_o06LADB2DvSkYMMCc7h9lXA">
+            <img id="img" class="style-scope yt-img-shadow" alt="thumbnail" width="168" src="https://i.ytimg.com/vi/EuPSibuIKIg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLDOoI_o06LADB2DvSkYMMCc7h9lXA">
             <div class="description">
                 <span class="title">Google coding interview with a Competitive programmer</span>
                 <span class="info">Clement Mihailescu</span>
@@ -165,7 +141,7 @@
             </div>
         </div>
         <div class="thumbnail">
-            <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/pibRhMG3B5Y/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCgHqR-JL6biG-3JIskhPvX70pRMQ">
+            <img id="img" class="style-scope yt-img-shadow" alt="thumbnail" width="168" src="https://i.ytimg.com/vi/pibRhMG3B5Y/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCgHqR-JL6biG-3JIskhPvX70pRMQ">
             <div class="description">
                 <span class="title">How To Insert Video In HTML - Web Designing Tutorials</span>
                 <span class="info">Website & Graphic Design</span>
@@ -173,7 +149,7 @@
             </div>
         </div>
         <div class="thumbnail">
-            <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/ZNy2ajRiGXc/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLBPXLIxHXCeJ1sjdwdz691sCXAICw">
+            <img id="img" class="style-scope yt-img-shadow" alt="thumbnail" width="168" src="https://i.ytimg.com/vi/ZNy2ajRiGXc/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLBPXLIxHXCeJ1sjdwdz691sCXAICw">
             <div class="description">
                 <span class="title">HTML Video Tutorial-77-iframe tag vs object embed tags</span>
                 <span class="info">Rafael Nazario</span>
@@ -181,7 +157,7 @@
             </div>
         </div>
         <div class="thumbnail">
-            <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/OOy764mDtiA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLA5qBC3uUPA30yb10rhUvwupt4QOg">
+            <img id="img" class="style-scope yt-img-shadow" alt="thumbnail" width="168" src="https://i.ytimg.com/vi/OOy764mDtiA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLA5qBC3uUPA30yb10rhUvwupt4QOg">
             <div class="description">
                 <span class="title">17: How to make a website responsive | learn HTML and CSS</span>
                 <span class="info">MMTuts</span>
@@ -189,7 +165,7 @@
             </div>
         </div>
         <div class="thumbnail">
-            <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/q5N_Y9sYUuU/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCh3ohswEfAW97CJSi3vCRRgVSDdg">
+            <img id="img" class="style-scope yt-img-shadow" alt="thumbnail" width="168" src="https://i.ytimg.com/vi/q5N_Y9sYUuU/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCh3ohswEfAW97CJSi3vCRRgVSDdg">
             <div class="description">
                 <span class="title">Lols new move</span>
                 <span class="info">Uckla</span>
@@ -197,7 +173,7 @@
             </div>
         </div>
         <div class="thumbnail">
-            <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/pibRhMG3B5Y/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCgHqR-JL6biG-3JIskhPvX70pRMQ">
+            <img id="img" class="style-scope yt-img-shadow" alt="thumbnail" width="168" src="https://i.ytimg.com/vi/pibRhMG3B5Y/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCgHqR-JL6biG-3JIskhPvX70pRMQ">
             <div class="description">
                 <span class="title">How To Insert Video In HTML - Web Designing Tutorials</span>
                 <span class="info">Website & Graphic Design</span>
@@ -206,5 +182,5 @@
         </div>
     </aside>
 
-
 </body>
+</html>
